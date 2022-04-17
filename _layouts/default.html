@@ -2,9 +2,9 @@
 <html lang="{{ page.language | default: "en" }}" dir="{{ page.language_dir | default: "ltr" }}">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     {% if page.custom_css %}
-      <link rel="stylesheet" href="/css/{{ page.language }}.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.language }}.css">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     {% seo %}

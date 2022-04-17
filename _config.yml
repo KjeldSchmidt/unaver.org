@@ -2,46 +2,10 @@ title: Semantic Versioning
 descriptions: A simple set of rules and requirements that dictate how version numbers are assigned and incremented
 languages:
   en: English
-  fr: français
-  ru: pyccкий
-  uk: українська
-  es: español
-  it: italiano
-  id: bahasa Indonesia
-  pt-BR: português brasileiro
-  zh-TW: 繁體中文
-  zh-CN: 简体中文
-  ko: 한국어
-  sk: slovensky
-  sl: slovenščina
-  ar: العربية
-  ja: 日本語
-  tr: Türkçe
-  cs: čeština
-  de: Deutsch
-  sv: svenska
-  pl: polski
-  fa: فارسی
-  he: עברית
-  ka: ქართული
-  hr: hrvatski
-  hin: हिन्दी
-  ca: català
-  hu: magyar
-  vi: vietnamese
-  hy: Հայերեն
-  kab: taqbaylit
-  bg: Български
-  nl: Nederlands
-  ro: Română
 versions:
-  - 2.0.0
-  - 2.0.0-rc.2
-  - 2.0.0-rc.1
-  - 1.0.0
-  - 1.0.0-beta
-current_version: 2.0.0
-author: Tom Preston-Werner
+  - 11..
+current_version: 11..
+author: Kjeld Schmidt
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -51,3 +15,6 @@ defaults:
       path: ''
     values:
       layout: default
+
+baseurl: /unaver.org
+url: http://kjeldschmidt.github.io/
