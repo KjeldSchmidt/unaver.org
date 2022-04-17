@@ -346,7 +346,8 @@ name and the semantic version is "1.11.111".
 
 ### Is this a joke?
 
-Yes. 
+Yes. It was created by [Kjeld Schmidt](https://kjeld-schmidt.com) by forking
+the [SemVer website](https://semver.org) and changing some text.
 
 About
 -----
