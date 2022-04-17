@@ -16,5 +16,5 @@ defaults:
     values:
       layout: default
 
-baseurl: /unaver.org
-url: http://kjeldschmidt.github.io/
+baseurl: /
+url: http://unaver.org/
