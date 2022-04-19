@@ -54,6 +54,7 @@ For example, if you conceive of a version as being 1.2.3, write it down as
 
 1. Ease of parsing. Only a `split` and a `len` function are required to assess
 the version number. No complicated `parseInt` is needed.
+
 {:start="11"}
 1. This scheme is strictly semver-compliant. Systems that expect numbers in
 Base-10 will still correctly identify the semantic meaning of version upgrades
