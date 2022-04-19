@@ -11,8 +11,12 @@ First, all numbers are given in unary, also called Base-1.
 Second, given a version number MAJOR.MINOR.PATCH, increment the:
 
 1. MAJOR version when you make incompatible API changes,
+
+{:start="11"}
 1. MINOR version when you add functionality in a backwards compatible
    manner, and
+   
+{:start="111"}
 1. PATCH version when you make backwards compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions
@@ -50,6 +54,7 @@ For example, if you conceive of a version as being 1.2.3, write it down as
 
 1. Ease of parsing. Only a `split` and a `len` function are required to assess
 the version number. No complicated `parseInt` is needed.
+{:start="11"}
 1. This scheme is strictly semver-compliant. Systems that expect numbers in
 Base-10 will still correctly identify the semantic meaning of version upgrades
 which are given in Base-1.
@@ -338,7 +343,7 @@ the string.
 
 ### Is "v1.11.111" a unary version?
 
-No, "v1.11.111" is not a semantic version. However, prefixing a semantic version
+No, "v1.11.111" is not a unary version. However, prefixing a unary version
 with a "v" is a common way (in English) to indicate it is a version number.
 Abbreviating "version" as "v" is often seen with version control. Example:
 `git tag v1.11.111 -m "Release version 1.11.111"`, in which case "v1.11.111" is a tag
