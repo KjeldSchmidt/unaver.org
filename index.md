@@ -350,9 +350,9 @@ Abbreviating "version" as "v" is often seen with version control. Example:
 `git tag v1.11.111 -m "Release version 1.11.111"`, in which case "v1.11.111" is a tag
 name and the semantic version is "1.11.111".
 
-### Is this a joke?
+### This is a joke, right?
 
-Yes. It was created by [Kjeld Schmidt](https://kjeld-schmidt.com) by forking
+Of course. It was created by [Kjeld Schmidt](https://kjeld-schmidt.com) by forking
 the [SemVer website](https://semver.org) and changing some text.
 
 About
