@@ -16,5 +16,5 @@ defaults:
     values:
       layout: default
 
-baseurl: /
-url: http://unaver.org/
+baseurl: /unaver.org
+url: http://kjeld-schmidt.com/
